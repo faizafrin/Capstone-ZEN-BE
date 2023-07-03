@@ -16,7 +16,7 @@ async function genHashedPassword(password){
   }
 
 router.post('/signup', async function (req, res) {
-    const {email,password,userName} = req.body[0];
+    const {email,password,userName} = req.body;
     console.log(req.body);
     console.log(email,password,userName);
     const userFromDB = await getUserByName(email);
