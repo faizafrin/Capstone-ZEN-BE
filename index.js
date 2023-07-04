@@ -11,7 +11,7 @@ import { classesData, courseData, taskData } from "./data.js";
 import { countRouter } from "./routes/count.js";
 const Mongo_name = 'zenStudentDashboard'
 
-const Mongo_URL = `mongodb+srv://afrinasik2016:abriz123@cluster0.y3zvwjc.mongodb.net/${Mongo_name}`
+const Mongo_URL = `mongodb+srv://faizaafrin:AF30082012@cluster0.yshpzyi.mongodb.net/${Mongo_name}`
 
 const app = express();
 dotenv.config();
